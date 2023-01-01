@@ -1,6 +1,6 @@
 #include "shell.h"
 
-/**
+/*
  * _myexit - exits the shell
  * @info: Arrangement with potential arguments. 
  *    used to keep the prototype constant function
@@ -29,7 +29,7 @@ int _myexit(info_t *info)
 	return (-2);
 }
 
-/**
+/*
  * _mycd - changes the current directory of the process
  * @info: arrangement includes potential arguments
  *        used to maintain the prototype of the constant function.
@@ -79,7 +79,7 @@ int _mycd(info_t *info)
 	return (0);
 }
 
-/**
+/*
  * _myhelp - changes the current directory of the process
  * @info: arrangement includes potential arguments
  *        used to maintain the prototype of the constant function.
